@@ -1,15 +1,14 @@
 package com.fundatec.api.dndcharmanager.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Skill {
 
-    private String skillName;
-    private boolean selected;
+    private String name;
+    private int value;
+    private boolean proficient;
 
-    public String getSkillName() {
-        return skillName;
-    }
-
-    public boolean isSelected() {
-        return selected;
-    }
 }
